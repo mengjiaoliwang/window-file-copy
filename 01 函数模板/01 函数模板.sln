@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 函数模板", "01 函数模板\01 函数模板.vcxproj", "{EC6C2DD6-EECB-40AF-8FCB-46AAFF534017}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 模板案例-实现对数组排序", "02 模板案例-实现对数组排序\02 模板案例-实现对数组排序.vcxproj", "{E9E10983-A2D4-4C3F-B568-AE7A26B6C265}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 函数模板与普通函数区别以及调用规则", "03 函数模板与普通函数区别以及调用规则\03 函数模板与普通函数区别以及调用规则.vcxproj", "{74273F4B-D4C6-410D-BF00-3438A15CEFFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 模板局限性", "04 模板局限性\04 模板局限性.vcxproj", "{80A7C949-8415-4B40-90D8-1293E4A8151D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 类模板", "05 类模板\05 类模板.vcxproj", "{175FAB88-CF3E-40F4-8A6A-54D0DF34FCFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 类模板中成员函数的创建时机", "06 类模板中成员函数的创建时机\06 类模板中成员函数的创建时机.vcxproj", "{3F1E6ACA-12A8-4492-9033-C96E826207D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 类模板作为函数的参数", "07 类模板作为函数的参数\07 类模板作为函数的参数.vcxproj", "{65191271-D1AE-412C-98C5-4BFBC4B3F1F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 类模板-继承中的问题", "08 类模板-继承中的问题\08 类模板-继承中的问题.vcxproj", "{F10FE4FB-1C69-4A28-A877-4CE0FB861466}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 类模板-类外实现", "09 类模板-类外实现\09 类模板-类外实现.vcxproj", "{4B39F555-64D0-4887-8E36-EFFF2B94C971}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 类模板-分文件编写问题以及解决", "10 类模板-分文件编写问题以及解决\10 类模板-分文件编写问题以及解决.vcxproj", "{6CFA2097-6E4C-4615-8E6A-39F9C78B392C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11 类模板碰到友元函数", "11 类模板碰到友元函数\11 类模板碰到友元函数.vcxproj", "{EE8ED396-7FCF-4D2E-A06A-CDA7377374F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12 类模板的应用案例", "12 类模板的应用案例\12 类模板的应用案例.vcxproj", "{51FAD4B9-EEFE-4909-BC7B-B1B11B3F2DB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6C2DD6-EECB-40AF-8FCB-46AAFF534017}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC6C2DD6-EECB-40AF-8FCB-46AAFF534017}.Debug|Win32.Build.0 = Debug|Win32
+		{EC6C2DD6-EECB-40AF-8FCB-46AAFF534017}.Release|Win32.ActiveCfg = Release|Win32
+		{EC6C2DD6-EECB-40AF-8FCB-46AAFF534017}.Release|Win32.Build.0 = Release|Win32
+		{E9E10983-A2D4-4C3F-B568-AE7A26B6C265}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E9E10983-A2D4-4C3F-B568-AE7A26B6C265}.Debug|Win32.Build.0 = Debug|Win32
+		{E9E10983-A2D4-4C3F-B568-AE7A26B6C265}.Release|Win32.ActiveCfg = Release|Win32
+		{E9E10983-A2D4-4C3F-B568-AE7A26B6C265}.Release|Win32.Build.0 = Release|Win32
+		{74273F4B-D4C6-410D-BF00-3438A15CEFFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74273F4B-D4C6-410D-BF00-3438A15CEFFE}.Debug|Win32.Build.0 = Debug|Win32
+		{74273F4B-D4C6-410D-BF00-3438A15CEFFE}.Release|Win32.ActiveCfg = Release|Win32
+		{74273F4B-D4C6-410D-BF00-3438A15CEFFE}.Release|Win32.Build.0 = Release|Win32
+		{80A7C949-8415-4B40-90D8-1293E4A8151D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80A7C949-8415-4B40-90D8-1293E4A8151D}.Debug|Win32.Build.0 = Debug|Win32
+		{80A7C949-8415-4B40-90D8-1293E4A8151D}.Release|Win32.ActiveCfg = Release|Win32
+		{80A7C949-8415-4B40-90D8-1293E4A8151D}.Release|Win32.Build.0 = Release|Win32
+		{175FAB88-CF3E-40F4-8A6A-54D0DF34FCFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{175FAB88-CF3E-40F4-8A6A-54D0DF34FCFA}.Debug|Win32.Build.0 = Debug|Win32
+		{175FAB88-CF3E-40F4-8A6A-54D0DF34FCFA}.Release|Win32.ActiveCfg = Release|Win32
+		{175FAB88-CF3E-40F4-8A6A-54D0DF34FCFA}.Release|Win32.Build.0 = Release|Win32
+		{3F1E6ACA-12A8-4492-9033-C96E826207D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F1E6ACA-12A8-4492-9033-C96E826207D6}.Debug|Win32.Build.0 = Debug|Win32
+		{3F1E6ACA-12A8-4492-9033-C96E826207D6}.Release|Win32.ActiveCfg = Release|Win32
+		{3F1E6ACA-12A8-4492-9033-C96E826207D6}.Release|Win32.Build.0 = Release|Win32
+		{65191271-D1AE-412C-98C5-4BFBC4B3F1F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65191271-D1AE-412C-98C5-4BFBC4B3F1F1}.Debug|Win32.Build.0 = Debug|Win32
+		{65191271-D1AE-412C-98C5-4BFBC4B3F1F1}.Release|Win32.ActiveCfg = Release|Win32
+		{65191271-D1AE-412C-98C5-4BFBC4B3F1F1}.Release|Win32.Build.0 = Release|Win32
+		{F10FE4FB-1C69-4A28-A877-4CE0FB861466}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F10FE4FB-1C69-4A28-A877-4CE0FB861466}.Debug|Win32.Build.0 = Debug|Win32
+		{F10FE4FB-1C69-4A28-A877-4CE0FB861466}.Release|Win32.ActiveCfg = Release|Win32
+		{F10FE4FB-1C69-4A28-A877-4CE0FB861466}.Release|Win32.Build.0 = Release|Win32
+		{4B39F555-64D0-4887-8E36-EFFF2B94C971}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B39F555-64D0-4887-8E36-EFFF2B94C971}.Debug|Win32.Build.0 = Debug|Win32
+		{4B39F555-64D0-4887-8E36-EFFF2B94C971}.Release|Win32.ActiveCfg = Release|Win32
+		{4B39F555-64D0-4887-8E36-EFFF2B94C971}.Release|Win32.Build.0 = Release|Win32
+		{6CFA2097-6E4C-4615-8E6A-39F9C78B392C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CFA2097-6E4C-4615-8E6A-39F9C78B392C}.Debug|Win32.Build.0 = Debug|Win32
+		{6CFA2097-6E4C-4615-8E6A-39F9C78B392C}.Release|Win32.ActiveCfg = Release|Win32
+		{6CFA2097-6E4C-4615-8E6A-39F9C78B392C}.Release|Win32.Build.0 = Release|Win32
+		{EE8ED396-7FCF-4D2E-A06A-CDA7377374F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE8ED396-7FCF-4D2E-A06A-CDA7377374F3}.Debug|Win32.Build.0 = Debug|Win32
+		{EE8ED396-7FCF-4D2E-A06A-CDA7377374F3}.Release|Win32.ActiveCfg = Release|Win32
+		{EE8ED396-7FCF-4D2E-A06A-CDA7377374F3}.Release|Win32.Build.0 = Release|Win32
+		{51FAD4B9-EEFE-4909-BC7B-B1B11B3F2DB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51FAD4B9-EEFE-4909-BC7B-B1B11B3F2DB7}.Debug|Win32.Build.0 = Debug|Win32
+		{51FAD4B9-EEFE-4909-BC7B-B1B11B3F2DB7}.Release|Win32.ActiveCfg = Release|Win32
+		{51FAD4B9-EEFE-4909-BC7B-B1B11B3F2DB7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
